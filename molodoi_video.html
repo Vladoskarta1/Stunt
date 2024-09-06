@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head> 
+  <meta charset="UTF-8">   
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raiders UA</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+  />
+  <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"
+  ></script>
+  <script src="html\chastin.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+  <style>
+	   .card {
+		border-radius: 1em;
+		text-align: center;
+		padding: 1em;
+		width: 250px; /* Ширина карточки */
+      height: 400px; /* Высота карточки */
+	}
+	.card:hover {
+		background-color: rgba(21, 191, 221, 0.932);
+	}
+	.card img {
+		border-radius: 50%;
+		width: 85%;
+		margin: auto;
+	}
+	body{
+		background-color: rgba(255, 255, 255, 0);
+	}
+	.box {
+		background-image: url('/img/члент.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.card video{
+		border-radius: 15%;
+		width: 100%;
+		margin: auto;
+	}
+  </style>
+</head>
+<body class="box">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand p-9" hrefs="/">
+        <img src="/Favicon/StuntUA.png" alt="logo" width="150">
+      </a>
+      <button 
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="/">Home</a>
+				</li>
+          <li class="nav-item">
+            <a class="nav-link active"  href="places.html">Raider UA</a>
+          </li>
+			 <a class="nav-link active"
+			 aria-current="page"
+			 href="blog.html">ТГ Чати</a>
+			 <li class="nav-item">
+            <a class="nav-link active"
+               aria-current="page"
+               href="content.html">Content</a>
+          </li>
+			</ul>
+      </div>
+    </div>
+  </nav> 
+  <div class="container my-5">
+	<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-lg-4 mx-auto">
+		<div class="col">
+			<div class="card">
+			 <video src="/Video/Molodoi(1).mp4"  class="rounded-video" poster="/img/члент.jpg"  autoplay muted controls></video>
+			  <div class="card-body">
+				 <h5 class="card-title">Molodoi_Stunter</h5>
+				 <p class="card-text">Відео та фото можна скачать в низу!</p>
+			  </div> 
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+			  <img src="StuntZona.jpg" class="card-img-top" alt="Telegram">
+			  <div class="card-body">
+				 <h5 class="card-title">STUNTZONESHOP</h5>
+				 <p class="card-text">Магазин мотозапчастин, можна зробити пост свого товару!</p>
+				 <a href="https://t.me/STUNTZONESHOP" class="btn btn-primary">Telegram</a>
+			  </div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+			  <img src="SCOOTERSALES.jpg" class="card-img-top" alt="Telegram">
+			  <div class="card-body">
+				 <h5 class="card-title">SCOOTERSALES</h5>
+				 <p class="card-text">Магазин мотозапчастин, можна зробити пост свого товару!</p>
+				 <a href="https://t.me/SCOOTERSALES" class="btn btn-primary">Telegram</a>
+			  </div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+			  <img src="SamodeI.jpg" class="card-img-top" alt="Telegram">
+			  <div class="card-body">
+				 <h5 class="card-title">SamodeI</h5>
+				 <p class="card-text">Чат для спілкуваня, Українське мото ком'юніті</p>
+				 <a href="https://t.me/samodeI" class="btn btn-primary">Telegram</a>
+			  </div>
+			</div>
+		</div>
+	</div>
+ </div>
+</body>
